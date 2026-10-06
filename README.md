@@ -15,10 +15,11 @@ twice, retrying jobs that only got halfway. I write tests for those cases.
 - **[Business Flow Explorer](https://github.com/Moustafa-Ahmed/flow):** draws a codebase's business logic as a role-based mind map, then a flowchart for each feature. React, TypeScript.
 - **[Agent Code Plan](https://github.com/Moustafa-Ahmed/Agent-Code-Plan):** a planning board you can drop into any project. Table and Kanban views, all driven by one JSON file. Plain HTML and JavaScript.
 
-## Tools
+## Languages
 
-PHP, Laravel, MySQL, PostgreSQL, Livewire, Filament, Alpine, Tailwind, React,
-TypeScript, Pest, Git
+<div align="center">
+  <img height="200" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moustafa-Ahmed&amp;layout=donut&amp;hide_title=true&amp;hide_border=true&amp;langs_count=6&amp;theme=tokyonight">
+</div>
 
 ## Contact
 
