@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Moustafa Ahmed, backend engineer. Most used languages: PHP 60.26%, Blade 24.30%, HTML 8.87%, CSS 3.86%, TypeScript 2.21%, Other 0.50%.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b16"/>
+      <stop offset="0.6" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0c1526"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="0.42" stop-color="#f8fafc"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="0.58" stop-color="#a78bfa"/>
+      <stop offset="0.66" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-0.7 0; 0.7 0; -0.7 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.3" fill="#334155" fill-opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="340" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="20" fill="url(#dots)"/>
+  <rect x="0.5" y="0.5" width="1279" height="339" rx="19.5" fill="none" stroke="#1c2536"/>
+
+  <circle cx="140" cy="20" r="300" fill="url(#glowA)"/>
+  <circle cx="1190" cy="340" r="330" fill="url(#glowB)"/>
+
+  <!-- identity -->
+  <text x="74" y="150" fill="#22d3ee" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="18" font-weight="600" letter-spacing="7">BACKEND ENGINEER</text>
+  <text x="72" y="244" fill="url(#nameFill)" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="82" font-weight="800" letter-spacing="-1.5">Moustafa Ahmed</text>
+
+  <!-- languages donut -->
+  <g>
+    <path d="M1100.00 78.00 A82.0 82.0 0 1 1 1050.73 225.54 L1067.55 203.16 A54.0 54.0 0 1 0 1100.00 106.00 Z" fill="#38bdf8" stroke="#0b1220" stroke-width="2.5"/>
+    <path d="M1050.73 225.54 A82.0 82.0 0 0 1 1032.35 113.65 L1055.45 129.48 A54.0 54.0 0 0 0 1067.55 203.16 Z" fill="#f472b6" stroke="#0b1220" stroke-width="2.5"/>
+    <path d="M1032.35 113.65 A82.0 82.0 0 0 1 1067.11 84.89 L1078.34 110.54 A54.0 54.0 0 0 0 1055.45 129.48 Z" fill="#fbbf24" stroke="#0b1220" stroke-width="2.5"/>
+    <path d="M1067.11 84.89 A82.0 82.0 0 0 1 1086.12 79.18 L1090.86 106.78 A54.0 54.0 0 0 0 1078.34 110.54 Z" fill="#a78bfa" stroke="#0b1220" stroke-width="2.5"/>
+    <path d="M1086.12 79.18 A82.0 82.0 0 0 1 1097.43 78.04 L1098.31 106.03 A54.0 54.0 0 0 0 1090.86 106.78 Z" fill="#34d399" stroke="#0b1220" stroke-width="2.5"/>
+    <path d="M1097.43 78.04 A82.0 82.0 0 0 1 1100.00 78.00 L1100.00 106.00 A54.0 54.0 0 0 0 1098.31 106.03 Z" fill="#64748b" stroke="#0b1220" stroke-width="2.5"/>
+    <text x="1100" y="156" fill="#e2e8f0" text-anchor="middle"
+          font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">PHP</text>
+    <text x="1100" y="178" fill="#7c8aa0" text-anchor="middle"
+          font-family="Menlo, Consolas, monospace" font-size="13">60.3%</text>
+  </g>
+
+  <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15">
+      <circle cx="792" cy="80" r="6" fill="#38bdf8"/><text x="810" y="85" fill="#94a3b8">PHP</text><text x="985" y="85" fill="#e2e8f0" text-anchor="end" font-weight="600">60.26%</text>
+      <circle cx="792" cy="112" r="6" fill="#f472b6"/><text x="810" y="117" fill="#94a3b8">Blade</text><text x="985" y="117" fill="#e2e8f0" text-anchor="end" font-weight="600">24.30%</text>
+      <circle cx="792" cy="144" r="6" fill="#fbbf24"/><text x="810" y="149" fill="#94a3b8">HTML</text><text x="985" y="149" fill="#e2e8f0" text-anchor="end" font-weight="600">8.87%</text>
+      <circle cx="792" cy="176" r="6" fill="#a78bfa"/><text x="810" y="181" fill="#94a3b8">CSS</text><text x="985" y="181" fill="#e2e8f0" text-anchor="end" font-weight="600">3.86%</text>
+      <circle cx="792" cy="208" r="6" fill="#34d399"/><text x="810" y="213" fill="#94a3b8">TypeScript</text><text x="985" y="213" fill="#e2e8f0" text-anchor="end" font-weight="600">2.21%</text>
+      <circle cx="792" cy="240" r="6" fill="#64748b"/><text x="810" y="245" fill="#94a3b8">Other</text><text x="985" y="245" fill="#e2e8f0" text-anchor="end" font-weight="600">0.50%</text>
+  </g>
+
+  <!-- data bus -->
+  <line x1="72" y1="326" x2="1240" y2="326" stroke="#16203a" stroke-width="2"/>
+  <line x1="72" y1="326" x2="1240" y2="326" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"
+        stroke-dasharray="60 1108" opacity="0.75">
+    <animate attributeName="stroke-dashoffset" from="1168" to="-60" dur="7s" repeatCount="indefinite"/>
+  </line>
+  <g fill="#243049">
+    <circle cx="200" cy="326" r="3.5"/>
+    <circle cx="392" cy="326" r="3.5"/>
+    <circle cx="584" cy="326" r="3.5"/>
+    <circle cx="968" cy="326" r="3.5"/>
+    <circle cx="1160" cy="326" r="3.5"/>
+  </g>
+</svg>
