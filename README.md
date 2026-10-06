@@ -2,10 +2,36 @@
 
 ## Projects
 
-- **[Career 180 LMS](https://github.com/Moustafa-Ahmed/lms):** a small learning platform with courses, lessons, enrollments, and progress tracking. Includes an admin panel. `Laravel` `Livewire` `Filament`
-- **[Warehouse Inventory Reservation Engine](https://github.com/Moustafa-Ahmed/warehouse-inventory-engine):** inventory backend for a multi-warehouse ERP. Keeps stock correct through overlapping reservations, partial fulfillment, and duplicate shipping webhooks. `Laravel` `MySQL` `Pest`
-- **[Business Flow Explorer](https://github.com/Moustafa-Ahmed/flow):** draws a codebase's business logic as a role-based mind map, then a flowchart for each feature. `React` `TypeScript`
-- **[Agent Code Plan](https://github.com/Moustafa-Ahmed/Agent-Code-Plan):** a planning board you can drop into any project. Table and Kanban views, all driven by one JSON file. `HTML` `JavaScript`
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Moustafa-Ahmed/lms"><img src="assets/projects/lms.png" width="100%" alt="Career 180 LMS"></a><br>
+      <a href="https://github.com/Moustafa-Ahmed/lms"><b>Career 180 LMS</b></a><br>
+      <sub>Courses, lessons, enrollment, and progress tracking, plus an admin panel.</sub><br>
+      <sub><code>Laravel</code> <code>Livewire</code> <code>Filament</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Moustafa-Ahmed/warehouse-inventory-engine"><img src="assets/projects/warehouse-inventory-engine.png" width="100%" alt="Warehouse Inventory Reservation Engine"></a><br>
+      <a href="https://github.com/Moustafa-Ahmed/warehouse-inventory-engine"><b>Warehouse Inventory Reservation Engine</b></a><br>
+      <sub>Multi-warehouse inventory backend. Keeps stock correct through overlapping reservations and duplicate webhooks.</sub><br>
+      <sub><code>Laravel</code> <code>MySQL</code> <code>Pest</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Moustafa-Ahmed/flow"><img src="assets/projects/flow.png" width="100%" alt="Business Flow Explorer"></a><br>
+      <a href="https://github.com/Moustafa-Ahmed/flow"><b>Business Flow Explorer</b></a><br>
+      <sub>Draws a codebase's business logic as a role-based mind map, then a flowchart per feature.</sub><br>
+      <sub><code>React</code> <code>TypeScript</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Moustafa-Ahmed/Agent-Code-Plan"><img src="assets/projects/agent-code-plan.png" width="100%" alt="Agent Code Plan"></a><br>
+      <a href="https://github.com/Moustafa-Ahmed/Agent-Code-Plan"><b>Agent Code Plan</b></a><br>
+      <sub>A planning board you can drop into any project. Table and Kanban views from one JSON file.</sub><br>
+      <sub><code>HTML</code> <code>JavaScript</code></sub>
+    </td>
+  </tr>
+</table>
 
 ## Contact
 
