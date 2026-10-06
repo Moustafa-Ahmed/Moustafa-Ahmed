@@ -19,7 +19,7 @@ main thing; this is the smaller to-do list around it.
 - `Agent-Code-Plan`: `kanban` `project-management` `json-schema` `developer-tools` `ai-agents`
 
 **Pin** (Profile → Customize your pins), in this order:
-`warehouse-inventory-engine`, `lms`, `flow`, `Agent-Code-Plan`.
+`lms`, `warehouse-inventory-engine`, `flow`, `Agent-Code-Plan`.
 
 **Other**
 - Add an MIT license to each project.
