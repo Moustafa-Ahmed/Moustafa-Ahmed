@@ -11,21 +11,15 @@
       <sub><code>Laravel</code> <code>Livewire</code> <code>Filament</code></sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Moustafa-Ahmed/warehouse-inventory-engine"><img src="assets/projects/warehouse-inventory-engine.png" width="100%" alt="Warehouse Inventory Reservation Engine"></a><br>
-      <a href="https://github.com/Moustafa-Ahmed/warehouse-inventory-engine"><b>Warehouse Inventory Reservation Engine</b></a><br>
-      <sub>Multi-warehouse inventory backend. Keeps stock correct through overlapping reservations and duplicate webhooks.</sub><br>
-      <sub><code>Laravel</code> <code>MySQL</code> <code>Pest</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <a href="https://github.com/Moustafa-Ahmed/flow"><img src="assets/projects/flow.png" width="100%" alt="Business Flow Explorer"></a><br>
       <a href="https://github.com/Moustafa-Ahmed/flow"><b>Business Flow Explorer</b></a><br>
       <sub>Draws a codebase's business logic as a role-based mind map, then a flowchart per feature.</sub><br>
       <sub><code>React</code> <code>TypeScript</code></sub>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Moustafa-Ahmed/Agent-Code-Plan"><img src="assets/projects/agent-code-plan.png" width="100%" alt="Agent Code Plan"></a><br>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" valign="top">
+      <a href="https://github.com/Moustafa-Ahmed/Agent-Code-Plan"><img src="assets/projects/agent-code-plan.png" width="50%" alt="Agent Code Plan"></a><br>
       <a href="https://github.com/Moustafa-Ahmed/Agent-Code-Plan"><b>Agent Code Plan</b></a><br>
       <sub>A planning board you can drop into any project. Table and Kanban views from one JSON file.</sub><br>
       <sub><code>HTML</code> <code>JavaScript</code></sub>

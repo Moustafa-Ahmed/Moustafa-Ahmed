@@ -6,20 +6,18 @@ main thing; this is the smaller to-do list around it.
 ## In the GitHub UI
 
 **Descriptions**
-- `warehouse-inventory-engine` — Inventory reservation engine for a multi-warehouse ERP. Laravel 13 + MySQL.
 - `lms` — Mini LMS: courses, lessons, enrollment, progress. Laravel 12 · Livewire · Filament.
 - `flow` — Explore a codebase's business logic as a mind map and interactive flowcharts. React + TypeScript.
 - `Agent-Code-Plan` — Drop-in planning board (table + Kanban) driven by one JSON file.
 - `Moustafa-Ahmed` — GitHub profile.
 
 **Topics**
-- `warehouse-inventory-engine`: `laravel` `php` `mysql` `inventory-management` `erp` `concurrency` `webhooks` `idempotency` `pest`
 - `lms`: `laravel` `php` `livewire` `filament` `lms` `e-learning` `pest`
 - `flow`: `react` `typescript` `react-flow` `visualization` `flowchart` `vite`
 - `Agent-Code-Plan`: `kanban` `project-management` `json-schema` `developer-tools` `ai-agents`
 
 **Pin** (Profile → Customize your pins), in this order:
-`lms`, `warehouse-inventory-engine`, `flow`, `Agent-Code-Plan`.
+`lms`, `flow`, `Agent-Code-Plan`.
 
 **Other**
 - Add an MIT license to each project.
@@ -28,11 +26,10 @@ main thing; this is the smaller to-do list around it.
 
 ## In the repos
 
-- `warehouse-inventory-engine` — drop the "challenge submission" framing (it reads as a portfolio piece); remove scratch files at root (`challenge.txt`, `new.txt`, `erd.excalidraw`, `boost.json`, `AGENTS.md`, `.agents/`, `.ai/`, `.github/skills/`); add a screenshot.
 - `lms` — the repo is ~54 MB; remove committed `node_modules`/`vendor`/media. Trim the "If I Had More Time" section.
 - `flow` — rename `package.json` `"name"` from `"new"`.
 - `Agent-Code-Plan` — default branch is `master`; consider renaming to `main`.
-- Add CI: Pest for the two Laravel repos, typecheck + build for `flow`.
+- Add CI: Pest for `lms`, typecheck + build for `flow`.
 
 ## This repo
 
@@ -44,4 +41,4 @@ main thing; this is the smaller to-do list around it.
 ## Optional
 
 - GitHub Pages demo for `flow` / `Agent-Code-Plan`.
-- A screenshot and a tagged release on the flagship.
+- A screenshot and a tagged release on `lms`.
