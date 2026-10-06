@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Moustafa Ahmed — Backend Engineer, Laravel, PHP, MySQL">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#111c33"/>
+      <stop offset="1" stop-color="#0f2436"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#2b3a55" stroke-width="1" stroke-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#grid)"/>
+  <circle cx="1080" cy="60" r="240" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1280" height="6" rx="3" fill="url(#accent)"/>
+
+  <!-- text -->
+  <text x="72" y="112" fill="#22d3ee" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="6">BACKEND ENGINEER</text>
+  <text x="72" y="196" fill="#f8fafc" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="0.5">Moustafa Ahmed</text>
+  <text x="74" y="244" fill="#cbd5e1" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="26" font-weight="400">Laravel &#183; PHP &#183; MySQL &#8212; reliable backends for real-world load</text>
+
+  <!-- tech pills -->
+  <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">
+    <rect x="72" y="272" width="86" height="30" rx="15" fill="#1e293b" stroke="#334155"/>
+    <text x="115" y="292" fill="#e2e8f0" text-anchor="middle">Laravel</text>
+    <rect x="168" y="272" width="58" height="30" rx="15" fill="#1e293b" stroke="#334155"/>
+    <text x="197" y="292" fill="#e2e8f0" text-anchor="middle">PHP</text>
+    <rect x="236" y="272" width="82" height="30" rx="15" fill="#1e293b" stroke="#334155"/>
+    <text x="277" y="292" fill="#e2e8f0" text-anchor="middle">MySQL</text>
+    <rect x="328" y="272" width="76" height="30" rx="15" fill="#1e293b" stroke="#334155"/>
+    <text x="366" y="292" fill="#e2e8f0" text-anchor="middle">Pest</text>
+    <rect x="414" y="272" width="116" height="30" rx="15" fill="#1e293b" stroke="#334155"/>
+    <text x="472" y="292" fill="#e2e8f0" text-anchor="middle">REST APIs</text>
+  </g>
+
+  <!-- architecture motif: services talking to an API and a database -->
+  <g transform="translate(860,50)" fill="none" stroke="#38bdf8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <rect x="115" y="0" width="160" height="46" rx="10" stroke="#818cf8"/>
+    <rect x="0" y="90" width="150" height="46" rx="10"/>
+    <rect x="240" y="90" width="150" height="46" rx="10" stroke="#818cf8"/>
+    <path d="M195 46V68"/>
+    <path d="M195 68H75V90"/>
+    <path d="M195 68H315V90"/>
+    <ellipse cx="195" cy="190" rx="70" ry="21"/>
+    <path d="M125 190v44c0 12 31 21 70 21s70-9 70-21v-44"/>
+  </g>
+</svg>
