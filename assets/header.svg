@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Moustafa Ahmed, backend engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Moustafa Ahmed, backend engineer. Most used languages: PHP 60.56%, Blade 24.42%, HTML 8.91%, CSS 3.88%, TypeScript 2.22%.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070b16"/>
@@ -44,74 +44,25 @@
   <text x="72" y="244" fill="url(#nameFill)" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
         font-size="82" font-weight="800" letter-spacing="-1.5">Moustafa Ahmed</text>
 
-  <!-- live system graph -->
-  <g stroke="#2b3a55" stroke-width="2" fill="none" stroke-linecap="round">
-    <path d="M892 95 H1138" stroke-dasharray="6 9">
-      <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1.5s" repeatCount="indefinite"/>
-    </path>
-    <path d="M886 105 L1006 177" stroke-dasharray="6 9">
-      <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1.7s" repeatCount="indefinite"/>
-    </path>
-    <path d="M1144 105 L1024 177" stroke-dasharray="6 9">
-      <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1.9s" repeatCount="indefinite"/>
-    </path>
-    <path d="M1015 198 V262" stroke-dasharray="6 9">
-      <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1.6s" repeatCount="indefinite"/>
-    </path>
-    <path d="M892 185 H1003" stroke-dasharray="6 9">
-      <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1.8s" repeatCount="indefinite"/>
-    </path>
-    <path d="M880 107 V173" stroke-dasharray="6 9">
-      <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="2s" repeatCount="indefinite"/>
-    </path>
+  <!-- languages donut -->
+  <g>
+    <path d="M1100.00 78.00 A82.0 82.0 0 1 1 1049.50 224.60 L1066.74 202.54 A54.0 54.0 0 1 0 1100.00 106.00 Z" fill="#38bdf8" stroke="#0b1220" stroke-width="2.5"/>
+    <path d="M1049.50 224.60 A82.0 82.0 0 0 1 1033.60 111.89 L1056.27 128.31 A54.0 54.0 0 0 0 1066.74 202.54 Z" fill="#f472b6" stroke="#0b1220" stroke-width="2.5"/>
+    <path d="M1033.60 111.89 A82.0 82.0 0 0 1 1069.29 83.97 L1079.77 109.93 A54.0 54.0 0 0 0 1056.27 128.31 Z" fill="#fbbf24" stroke="#0b1220" stroke-width="2.5"/>
+    <path d="M1069.29 83.97 A82.0 82.0 0 0 1 1088.55 78.80 L1092.46 106.53 A54.0 54.0 0 0 0 1079.77 109.93 Z" fill="#a78bfa" stroke="#0b1220" stroke-width="2.5"/>
+    <path d="M1088.55 78.80 A82.0 82.0 0 0 1 1099.95 78.00 L1099.97 106.00 A54.0 54.0 0 0 0 1092.46 106.53 Z" fill="#34d399" stroke="#0b1220" stroke-width="2.5"/>
+    <text x="1100" y="156" fill="#e2e8f0" text-anchor="middle"
+          font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">PHP</text>
+    <text x="1100" y="178" fill="#7c8aa0" text-anchor="middle"
+          font-family="Menlo, Consolas, monospace" font-size="13">60.6%</text>
   </g>
 
-  <g>
-    <circle r="4.5" fill="#22d3ee">
-      <animateMotion dur="8s" repeatCount="indefinite"
-        path="M880 95 L1150 95 L1015 185 L1015 275 L1015 185 L880 185 L880 95"/>
-    </circle>
-    <circle r="10" fill="#22d3ee" fill-opacity="0.18">
-      <animateMotion dur="8s" repeatCount="indefinite"
-        path="M880 95 L1150 95 L1015 185 L1015 275 L1015 185 L880 185 L880 95"/>
-    </circle>
-
-    <g font-family="Menlo, Consolas, monospace" font-size="15" text-anchor="middle">
-      <circle cx="880" cy="95" r="13" fill="#0d1526" stroke="#38bdf8" stroke-width="2.5"/>
-      <circle cx="880" cy="95" r="13" fill="none" stroke="#38bdf8" stroke-width="2">
-        <animate attributeName="r" values="13;23;13" dur="2.6s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" repeatCount="indefinite"/>
-      </circle>
-      <text x="880" y="134" fill="#7c8aa0">api</text>
-
-      <circle cx="1150" cy="95" r="13" fill="#0d1526" stroke="#a78bfa" stroke-width="2.5"/>
-      <circle cx="1150" cy="95" r="13" fill="none" stroke="#a78bfa" stroke-width="2">
-        <animate attributeName="r" values="13;23;13" dur="2.6s" begin="0.7s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" begin="0.7s" repeatCount="indefinite"/>
-      </circle>
-      <text x="1150" y="134" fill="#7c8aa0">queue</text>
-
-      <circle cx="880" cy="185" r="13" fill="#0d1526" stroke="#34d399" stroke-width="2.5"/>
-      <circle cx="880" cy="185" r="13" fill="none" stroke="#34d399" stroke-width="2">
-        <animate attributeName="r" values="13;23;13" dur="2.6s" begin="1.2s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" begin="1.2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="880" y="224" fill="#7c8aa0">cache</text>
-
-      <circle cx="1015" cy="185" r="13" fill="#0d1526" stroke="#fbbf24" stroke-width="2.5"/>
-      <circle cx="1015" cy="185" r="13" fill="none" stroke="#fbbf24" stroke-width="2">
-        <animate attributeName="r" values="13;23;13" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
-      </circle>
-      <text x="1015" y="224" fill="#7c8aa0">worker</text>
-
-      <circle cx="1015" cy="275" r="13" fill="#0d1526" stroke="#f472b6" stroke-width="2.5"/>
-      <circle cx="1015" cy="275" r="13" fill="none" stroke="#f472b6" stroke-width="2">
-        <animate attributeName="r" values="13;23;13" dur="2.6s" begin="1.9s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" begin="1.9s" repeatCount="indefinite"/>
-      </circle>
-      <text x="1015" y="314" fill="#7c8aa0">mysql</text>
-    </g>
+  <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15">
+      <circle cx="792" cy="100" r="6" fill="#38bdf8"/><text x="810" y="105" fill="#94a3b8">PHP</text><text x="985" y="105" fill="#e2e8f0" text-anchor="end" font-weight="600">60.56%</text>
+      <circle cx="792" cy="132" r="6" fill="#f472b6"/><text x="810" y="137" fill="#94a3b8">Blade</text><text x="985" y="137" fill="#e2e8f0" text-anchor="end" font-weight="600">24.42%</text>
+      <circle cx="792" cy="164" r="6" fill="#fbbf24"/><text x="810" y="169" fill="#94a3b8">HTML</text><text x="985" y="169" fill="#e2e8f0" text-anchor="end" font-weight="600">8.91%</text>
+      <circle cx="792" cy="196" r="6" fill="#a78bfa"/><text x="810" y="201" fill="#94a3b8">CSS</text><text x="985" y="201" fill="#e2e8f0" text-anchor="end" font-weight="600">3.88%</text>
+      <circle cx="792" cy="228" r="6" fill="#34d399"/><text x="810" y="233" fill="#94a3b8">TypeScript</text><text x="985" y="233" fill="#e2e8f0" text-anchor="end" font-weight="600">2.22%</text>
   </g>
 
   <!-- data bus -->
