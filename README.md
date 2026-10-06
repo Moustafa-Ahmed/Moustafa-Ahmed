@@ -1,7 +1,5 @@
 ![Moustafa Ahmed, backend engineer](assets/header.svg)
 
-# Moustafa Ahmed
-
 Backend engineer. Most of my work is Laravel, PHP, and MySQL.
 
 I tend to end up on the parts that are hard to get right: keeping stock counts
@@ -18,7 +16,7 @@ twice, retrying jobs that only got halfway. I write tests for those cases.
 ## Languages
 
 <div align="center">
-  <img height="200" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moustafa-Ahmed&amp;layout=donut&amp;hide_title=true&amp;hide_border=true&amp;langs_count=6&amp;theme=tokyonight">
+  <img height="200" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moustafa-Ahmed&amp;layout=donut&amp;hide_title=true&amp;hide_border=true&amp;langs_count=5&amp;theme=tokyonight">
 </div>
 
 ## Contact
