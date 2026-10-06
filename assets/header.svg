@@ -1,13 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Moustafa Ahmed — backend engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-label="Moustafa Ahmed, backend engineer. Laravel, PHP, MySQL.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
       <stop offset="1" stop-color="#101827"/>
     </linearGradient>
+
+    <!-- one reveal mask per line; rects keep a full static width as a no-animation fallback -->
+    <clipPath id="c1"><rect class="r r1" x="56" y="78" width="220" height="32"/></clipPath>
+    <clipPath id="c2"><rect class="r r2" x="54" y="112" width="520" height="66"/></clipPath>
+    <clipPath id="c3"><rect class="r r3" x="56" y="196" width="270" height="32"/></clipPath>
+    <clipPath id="c4"><rect class="r r4" x="58" y="238" width="360" height="32"/></clipPath>
+    <clipPath id="c5"><rect class="r r5" x="56" y="282" width="120" height="32"/></clipPath>
+
+    <style>
+      .r { animation-duration: .5s; animation-timing-function: steps(24, end); animation-fill-mode: both; }
+      .r1 { animation-name: w1; animation-delay: .2s; }
+      .r2 { animation-name: w2; animation-delay: .8s; animation-duration: .7s; }
+      .r3 { animation-name: w3; animation-delay: 1.7s; }
+      .r4 { animation-name: w4; animation-delay: 2.2s; }
+      .r5 { animation-name: w5; animation-delay: 2.9s; }
+      @keyframes w1 { from { width: 0 } to { width: 220 } }
+      @keyframes w2 { from { width: 0 } to { width: 520 } }
+      @keyframes w3 { from { width: 0 } to { width: 270 } }
+      @keyframes w4 { from { width: 0 } to { width: 360 } }
+      @keyframes w5 { from { width: 0 } to { width: 120 } }
+      .cursor { animation: blink 1.05s steps(1) infinite; animation-delay: 3.1s; }
+      @keyframes blink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
+    </style>
   </defs>
 
-  <rect width="1280" height="300" rx="16" fill="url(#bg)"/>
-  <rect x="0.5" y="0.5" width="1279" height="299" rx="15.5" fill="none" stroke="#1f2937"/>
+  <rect width="1280" height="330" rx="16" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1279" height="329" rx="15.5" fill="none" stroke="#1f2937"/>
 
   <!-- window chrome -->
   <line x1="0" y1="46" x2="1280" y2="46" stroke="#1f2937"/>
@@ -16,26 +39,28 @@
   <circle cx="78" cy="23" r="7" fill="#27c93f"/>
   <text x="640" y="28" fill="#5b6472" font-family="Menlo, Consolas, monospace" font-size="14" text-anchor="middle">moustafa@github: ~</text>
 
-  <!-- whoami -->
-  <text x="56" y="106" font-family="Menlo, Consolas, monospace" font-size="24">
-    <tspan fill="#27c93f">$</tspan><tspan fill="#c9d1d9"> whoami</tspan>
-  </text>
+  <g font-family="Menlo, Consolas, monospace">
+    <g clip-path="url(#c1)">
+      <text x="56" y="100" font-size="24"><tspan fill="#27c93f">$</tspan><tspan fill="#c9d1d9"> whoami</tspan></text>
+    </g>
 
-  <!-- name -->
-  <text x="54" y="182" fill="#f0f6fc" font-family="Menlo, Consolas, monospace" font-size="64" font-weight="700">Moustafa Ahmed</text>
+    <g clip-path="url(#c2)">
+      <text x="54" y="166" fill="#f0f6fc" font-size="52" font-weight="700">moustafa ahmed</text>
+    </g>
 
-  <!-- role -->
-  <text x="58" y="228" font-family="Menlo, Consolas, monospace" font-size="24">
-    <tspan fill="#8b949e">backend engineer</tspan>
-    <tspan fill="#3b4453">  ·  </tspan>
-    <tspan fill="#38bdf8">laravel</tspan>
-    <tspan fill="#3b4453">  ·  </tspan>
-    <tspan fill="#a78bfa">php</tspan>
-    <tspan fill="#3b4453">  ·  </tspan>
-    <tspan fill="#f472b6">mysql</tspan>
-  </text>
+    <g clip-path="url(#c3)">
+      <text x="56" y="218" font-size="24"><tspan fill="#27c93f">$</tspan><tspan fill="#c9d1d9"> cat stack.txt</tspan></text>
+    </g>
 
-  <!-- prompt -->
-  <text x="56" y="272" font-family="Menlo, Consolas, monospace" font-size="24"><tspan fill="#27c93f">$</tspan></text>
-  <rect x="80" y="253" width="13" height="23" fill="#c9d1d9"/>
+    <g clip-path="url(#c4)">
+      <text x="58" y="260" font-size="24">
+        <tspan fill="#38bdf8">laravel</tspan><tspan fill="#3b4453">  ·  </tspan><tspan fill="#a78bfa">php</tspan><tspan fill="#3b4453">  ·  </tspan><tspan fill="#f472b6">mysql</tspan>
+      </text>
+    </g>
+
+    <g clip-path="url(#c5)">
+      <text x="56" y="304" font-size="24"><tspan fill="#27c93f">$</tspan></text>
+    </g>
+    <rect class="cursor" x="80" y="284" width="13" height="24" fill="#c9d1d9"/>
+  </g>
 </svg>
