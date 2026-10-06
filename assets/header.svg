@@ -1,66 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-label="Moustafa Ahmed, backend engineer. Laravel, PHP, MySQL.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Moustafa Ahmed, backend engineer. Laravel, PHP, MySQL.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#101827"/>
+      <stop offset="0" stop-color="#070b16"/>
+      <stop offset="0.6" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0c1526"/>
     </linearGradient>
 
-    <!-- one reveal mask per line; rects keep a full static width as a no-animation fallback -->
-    <clipPath id="c1"><rect class="r r1" x="56" y="78" width="220" height="32"/></clipPath>
-    <clipPath id="c2"><rect class="r r2" x="54" y="112" width="520" height="66"/></clipPath>
-    <clipPath id="c3"><rect class="r r3" x="56" y="196" width="270" height="32"/></clipPath>
-    <clipPath id="c4"><rect class="r r4" x="58" y="238" width="360" height="32"/></clipPath>
-    <clipPath id="c5"><rect class="r r5" x="56" y="282" width="120" height="32"/></clipPath>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
 
-    <style>
-      .r { animation-duration: .5s; animation-timing-function: steps(24, end); animation-fill-mode: both; }
-      .r1 { animation-name: w1; animation-delay: .2s; }
-      .r2 { animation-name: w2; animation-delay: .8s; animation-duration: .7s; }
-      .r3 { animation-name: w3; animation-delay: 1.7s; }
-      .r4 { animation-name: w4; animation-delay: 2.2s; }
-      .r5 { animation-name: w5; animation-delay: 2.9s; }
-      @keyframes w1 { from { width: 0 } to { width: 220 } }
-      @keyframes w2 { from { width: 0 } to { width: 520 } }
-      @keyframes w3 { from { width: 0 } to { width: 270 } }
-      @keyframes w4 { from { width: 0 } to { width: 360 } }
-      @keyframes w5 { from { width: 0 } to { width: 120 } }
-      .cursor { animation: blink 1.05s steps(1) infinite; animation-delay: 3.1s; }
-      @keyframes blink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
-    </style>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="0.42" stop-color="#f8fafc"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="0.58" stop-color="#a78bfa"/>
+      <stop offset="0.66" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-0.7 0; 0.7 0; -0.7 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="0.35" stop-color="#818cf8" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.3" fill="#334155" fill-opacity="0.45"/>
+    </pattern>
   </defs>
 
-  <rect width="1280" height="330" rx="16" fill="url(#bg)"/>
-  <rect x="0.5" y="0.5" width="1279" height="329" rx="15.5" fill="none" stroke="#1f2937"/>
+  <rect width="1280" height="340" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="20" fill="url(#dots)"/>
+  <rect x="0.5" y="0.5" width="1279" height="339" rx="19.5" fill="none" stroke="#1c2536"/>
 
-  <!-- window chrome -->
-  <line x1="0" y1="46" x2="1280" y2="46" stroke="#1f2937"/>
-  <circle cx="30" cy="23" r="7" fill="#ff5f56"/>
-  <circle cx="54" cy="23" r="7" fill="#ffbd2e"/>
-  <circle cx="78" cy="23" r="7" fill="#27c93f"/>
-  <text x="640" y="28" fill="#5b6472" font-family="Menlo, Consolas, monospace" font-size="14" text-anchor="middle">moustafa@github: ~</text>
+  <circle cx="150" cy="30" r="300" fill="url(#glowA)"/>
+  <circle cx="1180" cy="330" r="320" fill="url(#glowB)"/>
 
-  <g font-family="Menlo, Consolas, monospace">
-    <g clip-path="url(#c1)">
-      <text x="56" y="100" font-size="24"><tspan fill="#27c93f">$</tspan><tspan fill="#c9d1d9"> whoami</tspan></text>
+  <!-- left: identity -->
+  <text x="74" y="116" fill="#22d3ee" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="18" font-weight="600" letter-spacing="7">BACKEND ENGINEER</text>
+
+  <text x="72" y="206" fill="url(#nameFill)" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="76" font-weight="800" letter-spacing="-1">Moustafa Ahmed</text>
+
+  <text x="75" y="250" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="400">
+    <tspan fill="#38bdf8">Laravel</tspan><tspan fill="#3b4453">  ·  </tspan>
+    <tspan fill="#a78bfa">PHP</tspan><tspan fill="#3b4453">  ·  </tspan>
+    <tspan fill="#f472b6">MySQL</tspan>
+  </text>
+
+  <rect x="76" y="280" width="470" height="3" rx="1.5" fill="url(#rule)"/>
+
+  <!-- right: live system graph -->
+  <g stroke="#2b3a55" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M886 116 L1146 116" stroke-dasharray="6 9">
+      <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1152 128 L1024 226" stroke-dasharray="6 9">
+      <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1.7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M878 128 L1006 226" stroke-dasharray="6 9">
+      <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1.9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g>
+    <!-- traveling packet -->
+    <circle r="4.5" fill="#22d3ee">
+      <animateMotion dur="5.5s" repeatCount="indefinite" path="M886 116 L1146 116 L1024 235 L886 116"/>
+    </circle>
+    <circle r="10" fill="#22d3ee" fill-opacity="0.18">
+      <animateMotion dur="5.5s" repeatCount="indefinite" path="M886 116 L1146 116 L1024 235 L886 116"/>
+    </circle>
+
+    <!-- nodes -->
+    <g font-family="Menlo, Consolas, monospace" font-size="15" text-anchor="middle">
+      <circle cx="880" cy="116" r="12" fill="#0d1526" stroke="#38bdf8" stroke-width="2.5"/>
+      <circle cx="880" cy="116" r="12" fill="none" stroke="#38bdf8" stroke-width="2">
+        <animate attributeName="r" values="12;22;12" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="880" y="158" fill="#7c8aa0">api</text>
+
+      <circle cx="1152" cy="116" r="12" fill="#0d1526" stroke="#a78bfa" stroke-width="2.5"/>
+      <circle cx="1152" cy="116" r="12" fill="none" stroke="#a78bfa" stroke-width="2">
+        <animate attributeName="r" values="12;22;12" dur="2.6s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="1152" y="158" fill="#7c8aa0">queue</text>
+
+      <circle cx="1016" cy="235" r="12" fill="#0d1526" stroke="#f472b6" stroke-width="2.5"/>
+      <circle cx="1016" cy="235" r="12" fill="none" stroke="#f472b6" stroke-width="2">
+        <animate attributeName="r" values="12;22;12" dur="2.6s" begin="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" begin="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="1016" y="277" fill="#7c8aa0">mysql</text>
     </g>
-
-    <g clip-path="url(#c2)">
-      <text x="54" y="166" fill="#f0f6fc" font-size="52" font-weight="700">moustafa ahmed</text>
-    </g>
-
-    <g clip-path="url(#c3)">
-      <text x="56" y="218" font-size="24"><tspan fill="#27c93f">$</tspan><tspan fill="#c9d1d9"> cat stack.txt</tspan></text>
-    </g>
-
-    <g clip-path="url(#c4)">
-      <text x="58" y="260" font-size="24">
-        <tspan fill="#38bdf8">laravel</tspan><tspan fill="#3b4453">  ·  </tspan><tspan fill="#a78bfa">php</tspan><tspan fill="#3b4453">  ·  </tspan><tspan fill="#f472b6">mysql</tspan>
-      </text>
-    </g>
-
-    <g clip-path="url(#c5)">
-      <text x="56" y="304" font-size="24"><tspan fill="#27c93f">$</tspan></text>
-    </g>
-    <rect class="cursor" x="80" y="284" width="13" height="24" fill="#c9d1d9"/>
   </g>
 </svg>
